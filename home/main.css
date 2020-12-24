@@ -56,3 +56,44 @@
     color: #FFFFFF;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.banner {
+    width: 800px;
+    height: 450px;
+    float: left;
+    background-color: aqua;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+
+.img-wrap .item img {
+    width: 800px;
+    height: 450px;
+}
+
+.banner .item {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.lr-tab .btn{
+    position: absolute;
+    top: 120px;
+    width: 41px;
+    height: 69px;
+    background: url("./img/lr-tab.png");
+
+}
+
+.lr-tab .left{
+    left: 0px;
+    background-position-x: -83px;
+}
+
+.lr-tab .right{
+    right: 0px;
+    background-position-x: -125px;
+}
